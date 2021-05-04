@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title></title>
+<base href="https://coolvrdude.github.io/" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="discord edited mover" />
+<meta name="keywords" content="discord edited mover, discord (edited) mover, change discord (edited) position, discord (edited) glitch, discord glitch edited, (edited) glitch." />
+<!-- Facebook Open Graph -->
+<meta property="og:title" content="Discord edited mover" />
+<meta property="og:description" content="move the (edited) in ur discord thingy idk" />
+<meta property="og:image" content="https://coolvrdude.github.io/firefox_mxxBiHNSu1.png" />
+<meta property="og:type" content="websites" />
+<meta property="og:url" content="https://coolvrdude.github.io/discord-edited-mover.html" />
+<!-- Facebook Open Graph end -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WF9C81BH74"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WF9C81BH74');
+</script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet"> 
+<body>
+indigo archer is stupid
+  <div style="text-align: center; font-family: 'Roboto', sans-serif;">
+    <h2> discord "(edited)" mover</h2>
+    <p> use <code>|</code> to denote where you want the <code>(edited)</code>
+      <input id="text"></input>
+      <p>output:</p>
+      <input id="output" readonly /> 
+      <button id="copy">copy</button><br /><br />
+      <a href="invite.html">add violet (my discord bot)</a>
+      <hr />
+  <p> fork of respecting/all-things-copying </p>   
+
+  <hr />
+  <p>How 2 use for pepegas: <br /><br />
+
+    enter message into discord <br />
+    enter message into here, putting | where you want the <code>(edited)</code> to be.
+    <br />copy message from here<br />
+    edit message on discord with output from here
+    <br /> done
+
+  </p>
+  </div>
+<script>
+ document.getElementById('copy').onclick = () =>{
+	document.getElementById('output').select();
+	document.execCommand('copy');
+}
+ document.getElementById('text').oninput = ()=>{
+	regex = /[`!@#$%^&*()_+\-=\[\]{};':"\\,.<>\/?~]/g;
+	if(document.getElementById('text').value.match(regex)) document.getElementById('text').value = document.getElementById('text').value.replace(document.getElementById('text').value.match(regex)[0], "").replace("|", "|"+document.getElementById('text').value.match(regex)[0])
+	bruh = document.getElementById('text').value.split('|');
+	bru = bruh.join('\u202B') + " \u202B"
+	document.getElementById('output').value = bru
+}
+  </script>
+  </body>
+</html>
+  
